@@ -1,7 +1,5 @@
 # RL Trading System - Complete Guide
 
-### Note : The startegy returns depends on the random selection of days. In some combinations few days with very high return might get included (like day87 in EBX and day104 in EBY) resulting in higher returns in some runs, while lower in other runs in which these days are not included in testing. For different runs change the seed in PARAMS['SEED'] to get different results.
-
 ## Quick Start 
 ### Install Dependencies
 ```bash
@@ -156,5 +154,5 @@ After test:
 ✓ signals_EBX/ (folder with signal CSVs)
 ```
 
-
+### Note : The startegy returns depends on the random selection of days. In some combinations few days with very high return might get included (like day87 in EBX and day104 in EBY) resulting in higher returns in some runs, while lower in other runs in which these days are not included in testing. For different runs change the seed in PARAMS['SEED'] to get different results.
 
